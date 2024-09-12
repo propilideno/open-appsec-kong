@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  open-appsec-kong:
+  - apiVersion: v2
+    appVersion: 1.1.16
+    created: "2024-09-12T14:34:08.939910313-03:00"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.9.13
+    description: The Cloud-Native Ingress and API-management
+    digest: e9be4e4526a34424578d35cd8b71c3461718a406699bd9a744880bd1163c2a02
+    home: https://konghq.com/
+    icon: https://s3.amazonaws.com/downloads.kong/universe/assets/icon-kong-inc-large.png
+    maintainers:
+    - email: team-k8s@konghq.com
+      name: team-k8s-bot
+    name: open-appsec-kong
+    sources:
+    - https://github.com/Kong/charts/tree/main/charts/kong
+    urls:
+    - open-appsec-kong-2.40.0.tgz
+    version: 2.40.0
+generated: "2024-09-12T14:34:08.931799359-03:00"
